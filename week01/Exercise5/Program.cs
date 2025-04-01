@@ -13,7 +13,7 @@ class Program
         }
         static int UserNumber()
         {
-            Console.Write("What is your  favorite number? ");
+            Console.Write("What is your  favorite number?   ");
             string number = Console.ReadLine();
             int numberInt = int.Parse(number);
             return numberInt;
